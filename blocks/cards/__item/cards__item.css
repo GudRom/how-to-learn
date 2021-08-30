@@ -1,0 +1,19 @@
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 100px 60px 0;
+    width: 240px;
+}
+
+.cards__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.cards__item:nth-last-child(2n) {
+    margin-bottom: 0;
+}
+
+.cards__item:last-child {
+    margin-bottom: 0;
+}

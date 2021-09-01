@@ -4,12 +4,12 @@
     font-weight: normal;
     text-decoration: none;
     color: white;
-    transition: .1;
+    transition: .4s;
     margin: 0;
     padding: 0;
 }
 
 .footer__column-link:hover {
-    transition: .5;
-    color: #2f80ed;
+    transition: .2s;
+    opacity: .6;
 }
